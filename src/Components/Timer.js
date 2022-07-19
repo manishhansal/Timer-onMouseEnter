@@ -45,8 +45,8 @@ export const Timer = () => {
     <>
       <div style={myDiv} onMouseEnter={handleTime} onMouseLeave={handleStop}>
         <div>
-          <h1>Timer</h1>
-          <h2>{time} s</h2>
+          <p>Timer will start when enter the mouse into this div</p>
+          <h1>{time} s</h1>
         </div>
       </div>
     </>
